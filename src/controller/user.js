@@ -1,7 +1,5 @@
-const Base = require('./base.js');
+const BaseRest = require('./rest.js');
 
-module.exports = class extends Base {
-  indexAction() {
-    return this.display();
-  }
+module.exports = class extends BaseRest {
+
 };
